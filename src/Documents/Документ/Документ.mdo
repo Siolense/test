@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a6a6466-c657-4111-bc88-7a5e6370a226">
+  <producedTypes>
+    <objectType typeId="21104e84-655b-4067-a812-b93db0ace2dc" valueTypeId="9f5bd5b0-ab42-4cc4-bbf2-b69bf51c705e"/>
+    <refType typeId="272f0953-3d82-49d5-b162-4bfd6214014f" valueTypeId="415cabcb-d5c6-46ec-9d4d-6137f68b58dc"/>
+    <selectionType typeId="c8dd7191-f30c-4289-a32c-79cb523891f8" valueTypeId="a46e58ad-5d0b-49f9-90e1-97db3af96e41"/>
+    <listType typeId="28acbf0a-91d3-4a67-9f3f-187778620b5a" valueTypeId="678665e1-258e-4689-bafb-4ae5b854b53a"/>
+    <managerType typeId="5939d742-bc81-4c5a-ab40-9c091a3e9f36" valueTypeId="39e1243b-7f88-4126-9666-82b20df659d5"/>
+  </producedTypes>
+  <name>Документ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="6dade849-0512-4ee9-badc-766d49ec3816">
+    <producedTypes>
+      <objectType typeId="a14be65d-734f-4acb-84e4-bbf1b53d9c86" valueTypeId="62478351-3b73-462b-8e6a-2186fdc557a0"/>
+      <rowType typeId="2fcccee4-9570-4e96-b752-2f8991badcab" valueTypeId="02b497e2-7717-49ee-981e-205c3a1567d8"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="cc3c77f3-e8f7-413c-9ad4-236afff78ade">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
